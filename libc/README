@@ -1,0 +1,17 @@
+---      SISTEME DE OPERARE     ---
+  
+  Tema #1 Mini Libc
+  
+  331 CC - Pavel Calin Gabriel 
+
+  Surse folosite:
+  https://stackoverflow.com/questions/34042915/what-is-the-purpose-of-map-anonymous-flag-in-mmap-system-call
+  https://elixir.bootlin.com/musl/v1.2.3/source/src/malloc/oldmalloc/malloc.c#L15 -- MREMAP_MAYMOVE
+  https://elixir.bootlin.com/musl/latest/source/src/stat/stat.c#L4
+  https://elixir.bootlin.com/musl/latest/source/src/stat/fstatat.c#L36
+  https://elixir.bootlin.com/musl/latest/source/src/unistd/sleep.c#L4
+  https://elixir.bootlin.com/musl/latest/source/src/unistd/ftruncate.c#L4
+  https://elixir.bootlin.com/musl/v1.2.3/source/include/fcntl.h#L102
+  https://elixir.bootlin.com/musl/v1.2.3/source/include/time.h#L55
+
+  /usr/include/x86_64-linux-gnu/bits/time.h
